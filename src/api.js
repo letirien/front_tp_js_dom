@@ -8,3 +8,6 @@
 // La table sera créée comme nouvel enfant de la div d'id workspace
 // votre code
 
+fetch('https://jsonplaceholder.typicode.com/users')
+  .then(response => response.json())
+  .then(data => console.log(data));
